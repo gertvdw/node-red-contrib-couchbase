@@ -1,0 +1,14 @@
+{
+    "name"         : "node-red-contrib-couchbase",
+    "version"      : "0.0.1",
+    "description"  : "A couchbase input node for Node-Red",
+    "dependencies": {
+        "couchbase": "^2.3.5"
+    },
+    "keywords": [ "couchbase" ],
+    "node-red"     : {
+        "nodes": {
+            "couchbase-node-in": "couchbasenode/couchbase-node-in.js"
+        }
+    }
+}
