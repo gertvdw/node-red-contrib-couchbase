@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-couchbase",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Send data to couchbase from Node-Red",
   "main": "couchbasenode/couchbase-node-in.js",
   "scripts": {
