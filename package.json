@@ -1,13 +1,13 @@
 {
   "name": "node-red-contrib-couchbase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send data to couchbase from Node-Red",
   "main": "couchbasenode/couchbase-node-in.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-        "couchbase": "^2.3.5"
+    "couchbase": "^2.3.5"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "node"
   ],
   "nodes": {
-      "couchbase-node-in": "couchbasenode/couchbase-node-in.js"
+    "couchbase-node-in": "couchbasenode/couchbase-node-in.js"
   },
   "author": "Gert van der Weyde",
   "license": "WTFPL",
