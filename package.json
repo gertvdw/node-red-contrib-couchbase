@@ -17,6 +17,9 @@
     "couchbase",
     "node"
   ],
+  "nodes": {
+    "couchbase-node-in": "couchbasenode/couchbase-node-in.js"
+  },
   "author": "Gert van der Weyde",
   "license": "WTFPL",
   "bugs": {
