@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "couchbase": "^2.3.5"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gertvdw/node-red-contrib-couchbase.git"
