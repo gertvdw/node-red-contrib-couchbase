@@ -9,6 +9,7 @@ module.exports = function(RED) {
         var node = this;
         var couchbase = require('couchbase');
         var cluster = new couchbase.Cluster('couchbase://' + config.server);  // + config.server);
+        cluster.authenticate(config.user, config.password);
         var bucket = cluster.openBucket(config.bucket, function(err) {
             if (err) { 
                 node.error("Failed to connect to " + config.bucket, err);
